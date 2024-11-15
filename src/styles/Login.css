@@ -1,0 +1,75 @@
+/* Left alignment for the galaxy background */
+.galaxy-background {
+  background: radial-gradient(circle at bottom right, #0f0c29, #302b63, #24243e);
+  padding-left: 2rem;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Language dropdown */
+.language-dropdown {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 50%; /* Fully rounded */
+  background-color: transparent;
+  color: #fff;
+  font-size: 0.875rem;
+  cursor: pointer;
+  appearance: none; /* Removes the default arrow */
+}
+
+/* Input fields with slightly rounded corners */
+.input-label {
+  display: block;
+  margin-bottom: 0.25rem; /* Adds gap between label and input field */
+  font-size: 0.875rem;
+  color: #d1d5db;
+}
+
+.input-field {
+  padding: 0.75rem;
+  border: 1px solid #4b5563;
+  border-radius: 8px; /* Slightly rounded corners */
+  background-color: #1f2937;
+  color: #fff;
+  transition: border-color 0.2s ease;
+  width: 100%;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #6366f1;
+}
+
+/* Password toggle icon styling */
+.toggle-password-icon {
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+  color: #9ca3af;
+  cursor: pointer;
+}
+
+/* Submit button with slightly rounded corners */
+.submit-button {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 8px; /* Slightly rounded corners */
+  font-size: 1rem;
+  background-color: #6366f1;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.submit-button:hover {
+  background-color: #4f46e5;
+}
